@@ -71,6 +71,7 @@ function App() {
           onSplit={handleSplit}
           friend={friend}
           onSelected={selected}
+          key={friend.id}
         />
       )}{" "}
     </div>
